@@ -206,11 +206,11 @@ font-size: 14px;
 /* media queries */
 @media (min-width: 700px) {
     :root {
-      --bg-url: url(./Imagens/bg-desktop.jpg);
+      --bg-url: url(/Imagens/bg-desktop.jpg);
     }
   
     .light {
-      --bg-url: url(./Imagens/bg-desktop-light.jpg);
+      --bg-url: url(/Imagens/bg-desktop-light.jpg);
     }
   }
   
