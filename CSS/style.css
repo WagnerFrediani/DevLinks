@@ -62,10 +62,9 @@ body * {
 
 #profile p {
  
-margin-top: 8px;
-font-weight: 400;
-line-height: 24px
-}
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px; }
 
 /* SWITCH */
 
@@ -207,11 +206,11 @@ font-size: 14px;
 /* media queries */
 @media (min-width: 700px) {
     :root {
-      --bg-url: url(./imagens/Avatar 1.png);
+      --bg-url: url(./imagens/bg-desktop.png);
     }
   
     .light {
-      --bg-url: url(./imagens/Figure1.png);
+      --bg-url: url(./imagens/bg-desktop-light.png);
     }
   }
   
