@@ -8,7 +8,7 @@
 :root {
 
     --text-color: white;
-    --br-url: url(/imagens/bg-desktop.jpg);
+    --br-url: url(/Imagens/bg-desktop.jpg);
     --stroke-color: rgba(255,255,255,0.5);
     --surface-color: rgba(255,255,255,0.05);
     --surface-color-hover: rgba(0,0,0,0.02);
@@ -20,7 +20,7 @@
 .light {
 
     --text-color: black;
-    --br-url: url(/imagens/bg-desktop-light.jpg);
+    --br-url: url(/Imagens/bg-desktop-light.jpg);
     --stroke-color: rgba(0,0,0,0.5);
     --surface-color:rgba(0,0,0,0.05);
     --surface-color-hover: rgba(255, 255, 255, 0.02);
@@ -206,11 +206,11 @@ font-size: 14px;
 /* media queries */
 @media (min-width: 700px) {
     :root {
-      --bg-url: url(./imagens/bg-desktop.png);
+      --bg-url: url(./Imagens/bg-desktop.png);
     }
   
     .light {
-      --bg-url: url(./imagens/bg-desktop-light.png);
+      --bg-url: url(./Imagens/bg-desktop-light.png);
     }
   }
   
